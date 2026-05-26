@@ -366,7 +366,7 @@ export default function AdminPage() {
           borderTop: '1px solid rgba(255,255,255,0.1)'
         }}>
           <p style={{ fontSize: '26px', fontWeight: '600', letterSpacing: '3px', margin: 0, color: '#e2e8f0' }}>
-            🛒 DISPONÍVEL EM EVITA.AO • ENTREGA RÁPIDA 🇦🇴
+            🛒 DISPONÍVEL EM Shop Xpress.AO • ENTREGA RÁPIDA 🇦🇴
           </p>
         </div>
       </div>

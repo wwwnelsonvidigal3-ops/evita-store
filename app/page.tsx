@@ -14,7 +14,7 @@ const translations = {
   pt: {
     search: "O que você procura?", specialOrder: "Encomenda Especial", addToCart: "Adicionar",
     support: "Suporte", payment: "Pagamento & Entrega", secure: "💰 Pagar na Entrega | 🔒 Seguro",
-    copyright: "© 2026 Evita Store.", cartTitle: "Seu Carrinho", emptyCart: "Carrinho vazio.",
+    copyright: "© 2026 Shop Xpress.", cartTitle: "Seu Carrinho", emptyCart: "Carrinho vazio.",
     unitPrice: "Preço unitário", estimatedTotal: "Total Estimado:", finishPurchase: "Finalizar Compra",
     deliveryData: "Dados de Entrega", fullName: "Nome Completo", phone: "Telefone / WhatsApp",
     address: "Endereço Completo (Bairro, Rua, Referência)", confirmOrder: "Confirmar Pedido",
@@ -25,7 +25,7 @@ const translations = {
   en: {
     search: "What are you looking for?", specialOrder: "Special Order", addToCart: "Add to Cart",
     support: "Support", payment: "Payment & Delivery", secure: "💰 Cash on Delivery | 🔒 Secure",
-    copyright: "© 2026 Evita Store.", cartTitle: "Your Cart", emptyCart: "Cart is empty.",
+    copyright: "© 2026 Shop Xpress.", cartTitle: "Your Cart", emptyCart: "Cart is empty.",
     unitPrice: "Unit price", estimatedTotal: "Estimated Total:", finishPurchase: "Checkout",
     deliveryData: "Delivery Details", fullName: "Full Name", phone: "Phone / WhatsApp",
     address: "Full Address (Neighborhood, Street, Ref.)", confirmOrder: "Confirm Order",
@@ -194,7 +194,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 text-center md:text-left">
           <div>
             <h4 className="text-white font-bold mb-3 flex items-center justify-center md:justify-start gap-2"><Mail size={16} className="text-orange-500"/> {t('support')}</h4>
-            <a href="mailto:suporte@evita.ao" className="text-orange-400 hover:underline">suporte@evita.ao</a>
+            <a href="mailto:suporte@shop.xpress.ao" className="text-orange-400 hover:underline">suporte@shop.xpress.ao</a>
           </div>
           <div>
             <h4 className="text-white font-bold mb-3">{t('payment')}</h4>
